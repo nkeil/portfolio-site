@@ -26,7 +26,7 @@ SECRET_KEY = 'l#=av-#73-qg^(39@18-nfkw=lue^whhj)4kl76q8(pdz$ld49'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.nickkeil.com']
+ALLOWED_HOSTS = ['www.nickkeil.com', '127.0.0.1']
 
 
 # Application definition
