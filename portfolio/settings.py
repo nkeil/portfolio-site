@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'l#=av-#73-qg^(39@18-nfkw=lue^whhj)4kl76q8(pdz$ld49'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['34.221.12.79']
+ALLOWED_HOSTS = ['www.nickkeil.com']
 
 
 # Application definition
