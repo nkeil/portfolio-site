@@ -1,3 +1,13 @@
 <h1>Projects index</h1>
 
+{% if projects %}
+<ul>
+	{% for project in projects %}
+	<li><a href="{% url 'projects:details' project.id %}">{{ project.title }}</a></li>
+	{% endfor %}
+</ul>
+{% else %}
+<p>No projects are available.</p>
+{% endif %}
+
 <a href="{% url 'index' %}">Home</a>
